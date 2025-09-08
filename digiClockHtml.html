@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Digital Clock</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="clock-container">
+            <div class="date" id="date">Monday, January 1, 2023</div>
+            <div class="time" id="time">00:00:00</div>
+            <div class="controls">
+                <button class="btn" id="formatBtn">
+                    <i class="fas fa-exchange-alt"></i> Switch to 12-hour format
+                </button>
+                <button class="btn" id="themeBtn">
+                    <i class="fas fa-palette"></i> Change Theme
+                </button>
+            </div>
+        </div>
+        
+        <div class="theme-selector">
+            <div class="theme-btn active" style="background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);" data-theme="default"></div>
+            <div class="theme-btn" style="background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);" data-theme="dark"></div>
+            <div class="theme-btn" style="background: linear-gradient(135deg, #834d9b, #d04ed6);" data-theme="purple"></div>
+            <div class="theme-btn" style="background: linear-gradient(135deg, #00b09b, #96c93d);" data-theme="green"></div>
+            <div class="theme-btn" style="background: linear-gradient(135deg, #ff5e62, #ff9966);" data-theme="sunset"></div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Modern Digital Clock | UI/UX Designed with ❤️</p>
+    </div>
+
+</body>
+</html>
